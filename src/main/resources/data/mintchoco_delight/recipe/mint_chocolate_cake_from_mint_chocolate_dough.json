@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cake",
+  "key": {
+    "E": {
+      "tag": "c:eggs"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "P": {
+      "item": "mintchoco_delight:mint_chocolate_dough"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    " M ",
+    "SES",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mintchoco_delight:mint_chocolate_cake"
+  }
+}

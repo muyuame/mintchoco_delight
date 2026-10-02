@@ -1,0 +1,33 @@
+{
+  "parent": "mintchoco_delight:main/root",
+  "criteria": {
+    "mint_chocolate_ice_cream": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mintchoco_delight:mint_chocolate_ice_cream"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.mintchoco_delight.main.perfect_combo.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mintchoco_delight:mint_chocolate_ice_cream"
+    },
+    "title": {
+      "translate": "advancements.mintchoco_delight.main.perfect_combo.title"
+    }
+  },
+  "requirements": [
+    [
+      "mint_chocolate_ice_cream"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

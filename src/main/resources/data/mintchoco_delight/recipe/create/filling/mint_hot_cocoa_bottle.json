@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "mintchoco_delight:mint_chocolate"
+    }
+  ],
+  "results": [
+    {
+      "id": "mintchoco_delight:mint_hot_cocoa"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "farmersdelight:add_features_by_filter",
+  "allowed_biomes": "#minecraft:is_forest",
+  "features": "mintchoco_delight:patch_wild_mint",
+  "step": "vegetal_decoration"
+}

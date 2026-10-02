@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "mint_chocolate_pie",
+  "key": {
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "c": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "m": {
+      "tag": "c:drinks/milk"
+    },
+    "x": {
+      "item": "mintchoco_delight:mint_syrup"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "mmm",
+    "xOx"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mintchoco_delight:mint_chocolate_pie"
+  }
+}

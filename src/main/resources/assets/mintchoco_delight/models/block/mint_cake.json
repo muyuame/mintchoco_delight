@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cake",
+  "textures": {
+    "particle": "mintchoco_delight:block/mint_cake_side",
+    "top": "mintchoco_delight:block/mint_cake_top",
+    "side": "mintchoco_delight:block/mint_cake_side"
+  }
+}
