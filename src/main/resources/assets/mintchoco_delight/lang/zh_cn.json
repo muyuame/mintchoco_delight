@@ -11,6 +11,7 @@
   "item.mintchoco_delight.mint_leaves": "薄荷叶",
   "item.mintchoco_delight.mint_syrup": "薄荷糖浆",
   "item.mintchoco_delight.mint_hot_cocoa": "薄荷热可可",
+  "item.mintchoco_delight.mint_milk_tea": "薄荷奶绿",
   "item.mintchoco_delight.mint_chocolate_bar": "薄荷巧克力棒",
   "item.mintchoco_delight.mint_cookie": "薄荷曲奇",
   "item.mintchoco_delight.mint_chocolate_cookie": "薄荷巧克力曲奇",
@@ -29,12 +30,14 @@
 
   "fluid_type.mintchoco_delight.mint_syrup": "薄荷糖浆",
   "fluid_type.mintchoco_delight.mint_chocolate": "薄荷巧克力",
+  "fluid_type.mintchoco_delight.mint_milk_tea": "薄荷奶绿",
 
   "item.mintchoco_delight.wild_mint.desc": "在森林与湿地自然生长的薄荷",
   "item.mintchoco_delight.mint_seeds.desc": "种在耕地上可以长出薄荷",
   "item.mintchoco_delight.mint_leaves.desc": "清清凉凉的薄荷叶，食用后获得短暂的速度提升",
   "item.mintchoco_delight.mint_syrup.desc": "用厨锅熬出的薄荷糖浆，是各种薄荷甜点的基底——它不是牙膏",
   "item.mintchoco_delight.mint_hot_cocoa.desc": "加入薄荷的热可可，饮用后获得速度提升",
+  "item.mintchoco_delight.mint_milk_tea.desc": "薄荷糖浆与牛奶调成的奶绿，饮用后获得速度提升",
   "item.mintchoco_delight.mint_chocolate_bar.desc": "薄荷与巧克力的经典搭配，食用后获得速度提升",
   "item.mintchoco_delight.mint_cookie.desc": "带着薄荷清香的曲奇，食用后获得速度提升",
   "item.mintchoco_delight.mint_chocolate_cookie.desc": "薄荷与巧克力交融的曲奇，食用后获得速度提升",

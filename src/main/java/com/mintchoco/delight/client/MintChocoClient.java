@@ -50,6 +50,25 @@ public final class MintChocoClient {
         });
     }
 
+    public static void registerMintMilkTea(Consumer<IClientFluidTypeExtensions> consumer) {
+        consumer.accept(new IClientFluidTypeExtensions() {
+            @Override
+            public ResourceLocation getStillTexture() {
+                return new ResourceLocation(MintChocoDelight.MODID, "block/mint_milk_tea_still");
+            }
+
+            @Override
+            public ResourceLocation getFlowingTexture() {
+                return new ResourceLocation(MintChocoDelight.MODID, "block/mint_milk_tea_flow");
+            }
+
+            @Override
+            public int getTintColor() {
+                return 0xFFD9F2DC;
+            }
+        });
+    }
+
     private MintChocoClient() {
     }
 }

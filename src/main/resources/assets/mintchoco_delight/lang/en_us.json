@@ -11,6 +11,7 @@
   "item.mintchoco_delight.mint_leaves": "Mint Leaves",
   "item.mintchoco_delight.mint_syrup": "Mint Syrup",
   "item.mintchoco_delight.mint_hot_cocoa": "Mint Hot Cocoa",
+  "item.mintchoco_delight.mint_milk_tea": "Mint Milk Tea",
   "item.mintchoco_delight.mint_chocolate_bar": "Mint Chocolate Bar",
   "item.mintchoco_delight.mint_cookie": "Mint Cookie",
   "item.mintchoco_delight.mint_chocolate_cookie": "Mint Chocolate Cookie",
@@ -29,12 +30,14 @@
 
   "fluid_type.mintchoco_delight.mint_syrup": "Mint Syrup",
   "fluid_type.mintchoco_delight.mint_chocolate": "Mint Chocolate",
+  "fluid_type.mintchoco_delight.mint_milk_tea": "Mint Milk Tea",
 
   "item.mintchoco_delight.wild_mint.desc": "Mint growing wild in forests and wetlands",
   "item.mintchoco_delight.mint_seeds.desc": "Plant on farmland to grow mint",
   "item.mintchoco_delight.mint_leaves.desc": "A cool, refreshing leaf. Grants a brief Speed boost when eaten",
   "item.mintchoco_delight.mint_syrup.desc": "Mint syrup cooked in a pot - the base of every minty treat. It is not toothpaste",
   "item.mintchoco_delight.mint_hot_cocoa.desc": "Hot cocoa spiked with mint. Grants Speed when drunk",
+  "item.mintchoco_delight.mint_milk_tea.desc": "Mint syrup blended with milk. Grants Speed when drunk",
   "item.mintchoco_delight.mint_chocolate_bar.desc": "The classic mint and chocolate pairing. Grants Speed when eaten",
   "item.mintchoco_delight.mint_cookie.desc": "A cookie with a cool hint of mint. Grants Speed",
   "item.mintchoco_delight.mint_chocolate_cookie.desc": "A cookie where mint meets chocolate. Grants Speed",

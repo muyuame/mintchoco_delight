@@ -22,6 +22,7 @@ public final class ModCreativeTabs {
                         output.accept(ModItems.WILD_MINT.get());
                         output.accept(ModItems.MINT_SYRUP.get());
                         output.accept(ModItems.MINT_HOT_COCOA.get());
+                        output.accept(ModItems.MINT_MILK_TEA.get());
                         output.accept(ModItems.MINT_CHOCOLATE_BAR.get());
                         output.accept(ModItems.MINT_COOKIE.get());
                         output.accept(ModItems.MINT_CHOCOLATE_COOKIE.get());

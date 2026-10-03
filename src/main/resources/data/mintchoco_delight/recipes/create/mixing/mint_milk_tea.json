@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "heatRequirement": "none",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluid": "mintchoco_delight:mint_syrup"
+    },
+    {
+      "amount": 250,
+      "fluidTag": "forge:milk"
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "mintchoco_delight:mint_milk_tea"
+    }
+  ]
+}
