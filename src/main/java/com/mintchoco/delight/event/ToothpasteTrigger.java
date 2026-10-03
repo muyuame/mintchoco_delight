@@ -5,7 +5,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.item.ItemStack;
-import net.neoforged.neoforge.event.ServerChatEvent;
+import net.minecraftforge.event.ServerChatEvent;
 
 /**
  * Rewards a player with a tube of toothpaste when they type the magic phrase in chat.

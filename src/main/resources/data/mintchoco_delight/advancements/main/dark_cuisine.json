@@ -1,0 +1,59 @@
+{
+  "parent": "mintchoco_delight:main/root",
+  "criteria": {
+    "pasta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mintchoco_delight:mint_chocolate_pasta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "fried_rice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mintchoco_delight:mint_chocolate_fried_rice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dumpling": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mintchoco_delight:mint_chocolate_dumpling"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.mintchoco_delight.main.dark_cuisine.description"
+    },
+    "icon": {
+      "item": "mintchoco_delight:mint_chocolate_pasta"
+    },
+    "title": {
+      "translate": "advancements.mintchoco_delight.main.dark_cuisine.title"
+    }
+  },
+  "requirements": [
+    [
+      "pasta",
+      "fried_rice",
+      "dumpling"
+    ]
+  ]
+}

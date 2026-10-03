@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mintchoco_delight:mint_hot_cocoa"
+    },
+    {
+      "tag": "forge:grain/wheat"
+    },
+    {
+      "tag": "forge:grain/wheat"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "mintchoco_delight:mint_chocolate_cookie"
+  }
+}

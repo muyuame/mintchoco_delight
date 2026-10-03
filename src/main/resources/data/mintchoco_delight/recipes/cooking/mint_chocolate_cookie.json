@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "mintchoco_delight:mint_chocolate_bar"
+    },
+    {
+      "item": "create:wheat_flour"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "mintchoco_delight:mint_chocolate_cookie"
+  }
+}

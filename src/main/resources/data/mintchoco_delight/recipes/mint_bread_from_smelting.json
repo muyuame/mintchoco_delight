@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "mintchoco_delight:mint_dough"
+  },
+  "result": {
+    "item": "mintchoco_delight:mint_bread"
+  }
+}

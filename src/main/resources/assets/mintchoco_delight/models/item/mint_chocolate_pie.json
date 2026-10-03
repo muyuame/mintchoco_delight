@@ -1,3 +1,6 @@
 {
-  "parent": "mintchoco_delight:block/mint_chocolate_pie"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mintchoco_delight:item/mint_chocolate_pie"
+  }
 }

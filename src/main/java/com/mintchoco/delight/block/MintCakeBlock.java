@@ -34,12 +34,12 @@ public class MintCakeBlock extends CakeBlock {
     }
 
     @Override
-    protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hitResult) {
+    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult) {
         if (level.isClientSide) {
             if (player.canEat(false)) {
                 return InteractionResult.SUCCESS;
             }
-            return player.getItemInHand(InteractionHand.MAIN_HAND).isEmpty() ? InteractionResult.CONSUME : InteractionResult.PASS;
+            return player.getItemInHand(hand).isEmpty() ? InteractionResult.CONSUME : InteractionResult.PASS;
         }
         return this.eatSlice(level, pos, state, player);
     }

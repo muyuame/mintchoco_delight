@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:crops/rice"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:vegetables/carrot"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "item": "mintchoco_delight:mint_chocolate_bar"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "mintchoco_delight:mint_chocolate_fried_rice"
+  }
+}

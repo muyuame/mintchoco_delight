@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:pasta"
+    },
+    {
+      "item": "mintchoco_delight:mint_chocolate_bar"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "farmersdelight:fried_egg"
+    },
+    {
+      "item": "farmersdelight:bacon"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "mintchoco_delight:mint_chocolate_pasta"
+  }
+}

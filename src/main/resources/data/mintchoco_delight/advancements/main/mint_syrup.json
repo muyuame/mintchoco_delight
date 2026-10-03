@@ -1,0 +1,33 @@
+{
+  "parent": "mintchoco_delight:main/root",
+  "criteria": {
+    "mint_syrup": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mintchoco_delight:mint_syrup"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.mintchoco_delight.main.mint_syrup.description"
+    },
+    "icon": {
+      "item": "mintchoco_delight:mint_syrup"
+    },
+    "title": {
+      "translate": "advancements.mintchoco_delight.main.mint_syrup.title"
+    }
+  },
+  "requirements": [
+    [
+      "mint_syrup"
+    ]
+  ]
+}

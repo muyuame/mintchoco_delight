@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "mint_chocolate_pie",
+  "key": {
+    "#": {
+      "item": "mintchoco_delight:mint_chocolate_pie_slice"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "mintchoco_delight:mint_chocolate_pie"
+  }
+}

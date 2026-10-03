@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mint_chocolate_pie",
+  "ingredients": [
+    {
+      "item": "farmersdelight:chocolate_pie"
+    },
+    {
+      "item": "mintchoco_delight:mint_syrup"
+    }
+  ],
+  "result": {
+    "item": "mintchoco_delight:mint_chocolate_pie"
+  }
+}
