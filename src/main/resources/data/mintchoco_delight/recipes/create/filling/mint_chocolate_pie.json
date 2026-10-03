@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "farmersdelight:pie_crust"
+    },
+    {
+      "amount": 500,
+      "fluid": "mintchoco_delight:mint_chocolate"
+    }
+  ],
+  "results": [
+    {
+      "item": "mintchoco_delight:mint_chocolate_pie"
+    }
+  ]
+}

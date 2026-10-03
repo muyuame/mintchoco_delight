@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cake",
+  "key": {
+    "E": {
+      "tag": "forge:eggs"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "P": {
+      "tag": "forge:dough"
+    },
+    "S": {
+      "item": "mintchoco_delight:mint_syrup"
+    }
+  },
+  "pattern": [
+    " M ",
+    "SES",
+    " P "
+  ],
+  "result": {
+    "item": "mintchoco_delight:mint_cake"
+  }
+}
