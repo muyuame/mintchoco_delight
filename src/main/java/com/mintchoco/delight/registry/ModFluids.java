@@ -31,6 +31,12 @@ public final class ModFluids {
                     .density(1400)
                     .viscosity(3000)));
 
+    public static final DeferredHolder<FluidType, FluidType> MINT_MILK_TEA_TYPE = FLUID_TYPES.register("mint_milk_tea",
+            () -> new FluidType(FluidType.Properties.create()
+                    .descriptionId("fluid_type.mintchoco_delight.mint_milk_tea")
+                    .density(1000)
+                    .viscosity(1000)));
+
     public static final DeferredHolder<Fluid, BaseFlowingFluid> MINT_SYRUP = FLUIDS.register("mint_syrup",
             () -> new BaseFlowingFluid.Source(mintSyrupProperties()));
     public static final DeferredHolder<Fluid, BaseFlowingFluid> FLOWING_MINT_SYRUP = FLUIDS.register("flowing_mint_syrup",
@@ -41,6 +47,11 @@ public final class ModFluids {
     public static final DeferredHolder<Fluid, BaseFlowingFluid> FLOWING_MINT_CHOCOLATE = FLUIDS.register("flowing_mint_chocolate",
             () -> new BaseFlowingFluid.Flowing(mintChocolateProperties()));
 
+    public static final DeferredHolder<Fluid, BaseFlowingFluid> MINT_MILK_TEA = FLUIDS.register("mint_milk_tea",
+            () -> new BaseFlowingFluid.Source(mintMilkTeaProperties()));
+    public static final DeferredHolder<Fluid, BaseFlowingFluid> FLOWING_MINT_MILK_TEA = FLUIDS.register("flowing_mint_milk_tea",
+            () -> new BaseFlowingFluid.Flowing(mintMilkTeaProperties()));
+
     private static BaseFlowingFluid.Properties mintSyrupProperties() {
         return new BaseFlowingFluid.Properties(MINT_SYRUP_TYPE, MINT_SYRUP, FLOWING_MINT_SYRUP)
                 .slopeFindDistance(2)
@@ -49,6 +60,12 @@ public final class ModFluids {
 
     private static BaseFlowingFluid.Properties mintChocolateProperties() {
         return new BaseFlowingFluid.Properties(MINT_CHOCOLATE_TYPE, MINT_CHOCOLATE, FLOWING_MINT_CHOCOLATE)
+                .slopeFindDistance(2)
+                .levelDecreasePerBlock(2);
+    }
+
+    private static BaseFlowingFluid.Properties mintMilkTeaProperties() {
+        return new BaseFlowingFluid.Properties(MINT_MILK_TEA_TYPE, MINT_MILK_TEA, FLOWING_MINT_MILK_TEA)
                 .slopeFindDistance(2)
                 .levelDecreasePerBlock(2);
     }

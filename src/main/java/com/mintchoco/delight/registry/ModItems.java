@@ -34,6 +34,9 @@ public final class ModItems {
             () -> new DrinkableItem(bottle()));
     public static final DeferredItem<Item> MINT_HOT_COCOA = ITEMS.register("mint_hot_cocoa",
             () -> new MintHotCocoaItem(bottle()));
+    // Same drinking effect as the hot cocoa, only the flavour differs.
+    public static final DeferredItem<Item> MINT_MILK_TEA = ITEMS.register("mint_milk_tea",
+            () -> new MintHotCocoaItem(bottle()));
 
     // --- Sweets ------------------------------------------------------------
     public static final DeferredItem<Item> MINT_CHOCOLATE_BAR = ITEMS.register("mint_chocolate_bar",

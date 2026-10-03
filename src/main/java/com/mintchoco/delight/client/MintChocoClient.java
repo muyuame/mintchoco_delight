@@ -46,6 +46,23 @@ public final class MintChocoClient {
                 return 0xFF93CDA6;
             }
         }, ModFluids.MINT_CHOCOLATE_TYPE);
+
+        event.registerFluidType(new IClientFluidTypeExtensions() {
+            @Override
+            public ResourceLocation getStillTexture() {
+                return ResourceLocation.fromNamespaceAndPath(MintChocoDelight.MODID, "block/mint_milk_tea_still");
+            }
+
+            @Override
+            public ResourceLocation getFlowingTexture() {
+                return ResourceLocation.fromNamespaceAndPath(MintChocoDelight.MODID, "block/mint_milk_tea_flow");
+            }
+
+            @Override
+            public int getTintColor() {
+                return 0xFFD9F2DC;
+            }
+        }, ModFluids.MINT_MILK_TEA_TYPE);
     }
 
     private MintChocoClient() {
