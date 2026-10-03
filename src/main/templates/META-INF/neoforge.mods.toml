@@ -25,10 +25,10 @@ description='''${mod_description}'''
     ordering="NONE"
     side="BOTH"
 
-# Create 为硬依赖
+# Create 为软依赖：安装后启用搅拌/灌装/倒空等自动化配方，未安装则相关配方不加载
 [[dependencies.${mod_id}]]
     modId="create"
-    type="required"
+    type="optional"
     versionRange="[6.0.0,6.1.0)"
     ordering="NONE"
     side="BOTH"

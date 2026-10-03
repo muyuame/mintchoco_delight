@@ -5,16 +5,17 @@
       "modid": "create"
     }
   ],
-  "type": "create:emptying",
+  "type": "create:mixing",
+  "heat_requirement": "heated",
   "ingredients": [
     {
-      "item": "mintchoco_delight:mint_syrup"
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "mintchoco_delight:mint_leaves"
     }
   ],
   "results": [
-    {
-      "id": "minecraft:glass_bottle"
-    },
     {
       "amount": 250,
       "id": "mintchoco_delight:mint_syrup"

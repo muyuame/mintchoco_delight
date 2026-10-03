@@ -6,17 +6,17 @@
       "request": "launch",
       "name": "Client",
       "presentation": {
-        "group": "Mod Development - mintchoco_delight",
+        "group": "Mod Development - mintchoco_delight-1.21.1",
         "order": 0
       },
-      "projectName": "mintchoco_delight",
+      "projectName": "mintchoco_delight-1.21.1",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@D:\\TRAE\\MCmod\\mintchoco_delight\\build\\moddev\\clientRunProgramArgs.txt"
+        "@D:\\TRAE\\MCmod\\mintchoco_delight-1.21.1\\build\\moddev\\clientRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@D:\\TRAE\\MCmod\\mintchoco_delight\\build\\moddev\\clientRunVmArgs.txt",
-        "-Dfml.modFolders\u003dmintchoco_delight%%D:\\TRAE\\MCmod\\mintchoco_delight\\bin\\main"
+        "@D:\\TRAE\\MCmod\\mintchoco_delight-1.21.1\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmintchoco_delight%%D:\\TRAE\\MCmod\\mintchoco_delight-1.21.1\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -28,17 +28,17 @@
       "request": "launch",
       "name": "Data",
       "presentation": {
-        "group": "Mod Development - mintchoco_delight",
+        "group": "Mod Development - mintchoco_delight-1.21.1",
         "order": 1
       },
-      "projectName": "mintchoco_delight",
+      "projectName": "mintchoco_delight-1.21.1",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@D:\\TRAE\\MCmod\\mintchoco_delight\\build\\moddev\\dataRunProgramArgs.txt"
+        "@D:\\TRAE\\MCmod\\mintchoco_delight-1.21.1\\build\\moddev\\dataRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@D:\\TRAE\\MCmod\\mintchoco_delight\\build\\moddev\\dataRunVmArgs.txt",
-        "-Dfml.modFolders\u003dmintchoco_delight%%D:\\TRAE\\MCmod\\mintchoco_delight\\bin\\main"
+        "@D:\\TRAE\\MCmod\\mintchoco_delight-1.21.1\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmintchoco_delight%%D:\\TRAE\\MCmod\\mintchoco_delight-1.21.1\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -50,17 +50,17 @@
       "request": "launch",
       "name": "GameTestServer",
       "presentation": {
-        "group": "Mod Development - mintchoco_delight",
+        "group": "Mod Development - mintchoco_delight-1.21.1",
         "order": 2
       },
-      "projectName": "mintchoco_delight",
+      "projectName": "mintchoco_delight-1.21.1",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@D:\\TRAE\\MCmod\\mintchoco_delight\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+        "@D:\\TRAE\\MCmod\\mintchoco_delight-1.21.1\\build\\moddev\\gameTestServerRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@D:\\TRAE\\MCmod\\mintchoco_delight\\build\\moddev\\gameTestServerRunVmArgs.txt",
-        "-Dfml.modFolders\u003dmintchoco_delight%%D:\\TRAE\\MCmod\\mintchoco_delight\\bin\\main"
+        "@D:\\TRAE\\MCmod\\mintchoco_delight-1.21.1\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmintchoco_delight%%D:\\TRAE\\MCmod\\mintchoco_delight-1.21.1\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -72,17 +72,17 @@
       "request": "launch",
       "name": "Server",
       "presentation": {
-        "group": "Mod Development - mintchoco_delight",
+        "group": "Mod Development - mintchoco_delight-1.21.1",
         "order": 3
       },
-      "projectName": "mintchoco_delight",
+      "projectName": "mintchoco_delight-1.21.1",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@D:\\TRAE\\MCmod\\mintchoco_delight\\build\\moddev\\serverRunProgramArgs.txt"
+        "@D:\\TRAE\\MCmod\\mintchoco_delight-1.21.1\\build\\moddev\\serverRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@D:\\TRAE\\MCmod\\mintchoco_delight\\build\\moddev\\serverRunVmArgs.txt",
-        "-Dfml.modFolders\u003dmintchoco_delight%%D:\\TRAE\\MCmod\\mintchoco_delight\\bin\\main"
+        "@D:\\TRAE\\MCmod\\mintchoco_delight-1.21.1\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmintchoco_delight%%D:\\TRAE\\MCmod\\mintchoco_delight-1.21.1\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
