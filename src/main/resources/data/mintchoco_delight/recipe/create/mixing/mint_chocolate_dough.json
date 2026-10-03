@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "heat_requirement": "none",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "mintchoco_delight:mint_chocolate"
+    },
+    {
+      "tag": "c:foods/dough"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "mintchoco_delight:mint_chocolate_dough"
+    }
+  ]
+}
