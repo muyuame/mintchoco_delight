@@ -21,7 +21,8 @@ repositories {
 }
 
 base {
-    archivesName = mod_id
+    // 产物名：<mod_id>-<loader>-<mc版本>-<mod版本>.jar
+    archivesName = "${mod_id}-neoforge-${minecraft_version}"
 }
 
 // Mojang ships Java 21 to end users starting in 1.20.5, so mods should target Java 21.
